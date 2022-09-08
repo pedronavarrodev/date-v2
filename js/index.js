@@ -6,9 +6,7 @@ let parceiro = prompt('Seu nome?');
 document.querySelector('.conteudo__titulo').innerHTML += parceiro + ' ?';
 
 const alertas = () => {
-  // alert('💞Now zomos parceiro ' + ${parceiro} + '💞');
   alert(`Te espero em nosso date  ${parceiro} 💞`);
-  // alert('😱Nuestra VoDa Is MañaNa😱');
   location.href = "https://youtu.be/nfezTxgrcUo";
 };
 
